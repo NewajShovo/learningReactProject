@@ -10,11 +10,9 @@ import Counter from "./components/Counter";
 function App() {
   return (
     <div className="App">
-      <Counter />
-      {/* <Greet name="Everyone">
-        <button>Action</button>
-      </Greet>
-      <Greet name="Shovo" />
+      {/* <Counter /> */}
+      <Greet name="Everyone">{/* <button>Action</button> */}</Greet>
+      {/* <Greet name="Shovo" />
       <Welcome name=" Hello Shovo"></Welcome> */}
       {/* <Hello /> */}
       {/* <Message /> */}
