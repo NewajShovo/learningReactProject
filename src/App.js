@@ -14,6 +14,8 @@ import ParentComponent from "./components/ParentComponent";
 
 import UserGretting from "./components/UserGretting";
 
+import NameList from "./components/NameList";
+
 function App() {
   return (
     <div className="App">
@@ -24,8 +26,10 @@ function App() {
 
       {/* <EventBind /> */}
 
-      <ParentComponent />
-      <UserGretting />
+      {/* <ParentComponent /> */}
+      {/* <UserGretting /> */}
+
+      <NameList />
 
       {/* <FunctionClick /> */}
 
