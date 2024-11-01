@@ -5,15 +5,22 @@ import Welcome from "./components/Welcome";
 
 import Hello from "./components/Hello";
 import Message from "./components/Message";
-import Counter from "./components/Counter";
+import JustCounter from "./components/JustCounter";
+import FunctionClick from "./components/FunctionClick";
+import ClassClick from "./components/classClick";
 
 function App() {
   return (
     <div className="App">
-      {/* <Counter /> */}
+      {/* <JustCounter /> */}
       <Greet name="Everyone">{/* <button>Action</button> */}</Greet>
+
+      <ClassClick />
+
+      {/* <FunctionClick /> */}
+
       {/* <Greet name="Shovo" /> */}
-      <Welcome name=" Hello Shovo"></Welcome>
+      {/* <Welcome name=" Hello Shovo"></Welcome> */}
       {/* <Hello /> */}
       {/* <Message /> */}
     </div>
