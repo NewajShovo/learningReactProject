@@ -12,6 +12,8 @@ import EventBind from "./components/EventBind";
 
 import ParentComponent from "./components/ParentComponent";
 
+import UserGretting from "./components/UserGretting";
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +25,7 @@ function App() {
       {/* <EventBind /> */}
 
       <ParentComponent />
+      <UserGretting />
 
       {/* <FunctionClick /> */}
 
