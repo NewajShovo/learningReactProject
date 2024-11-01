@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
-function Greet({ name }) {
+function Greet(props) {
+  const { name } = props;
   return (
     <div>
       <h1>Hello {name}</h1>
