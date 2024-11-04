@@ -36,6 +36,8 @@ import PureComponent from "./components/PureComponent";
 
 import ParentComp from "./components/ParentComp";
 
+import RefsDeomo from "./components/RefsDeomo";
+
 function App() {
   return (
     <div className="App">
@@ -73,7 +75,8 @@ function App() {
       {/* <FragmentDeom /> */}
       {/* <Table></Table> */}
       {/* <PureComponent /> */}
-      <ParentComp />
+      {/* <ParentComp /> */}
+      <RefsDeomo />
     </div>
   );
 }
