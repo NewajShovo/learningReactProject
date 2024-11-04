@@ -16,6 +16,14 @@ import UserGretting from "./components/UserGretting";
 
 import NameList from "./components/NameList";
 
+import Stylesheet from "./components/stylesheet";
+
+import Inline from "./components/inline";
+
+import "./appStyles.css";
+
+import styles from "./appStyles.module.css"; // can't apply into the child component
+
 function App() {
   return (
     <div className="App">
@@ -29,7 +37,13 @@ function App() {
       {/* <ParentComponent /> */}
       {/* <UserGretting /> */}
 
-      <NameList />
+      {/* <NameList /> */}
+
+      {/* <Stylesheet primary={true} /> */}
+
+      <h1 className="error"> Error</h1>
+      <h1 className={styles.success}> success</h1>
+      <Inline />
 
       {/* <FunctionClick /> */}
 
