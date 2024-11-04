@@ -38,6 +38,7 @@ import ParentComp from "./components/ParentComp";
 
 import RefsDeomo from "./components/RefsDeomo";
 import FocusInput from "./components/FocusInput";
+import FRParentInput from "./components/FRParentInput";
 
 function App() {
   return (
@@ -79,7 +80,8 @@ function App() {
       {/* <ParentComp /> */}
       {/* <RefsDeomo /> */}
 
-      <FocusInput />
+      {/* <FocusInput /> */}
+      <FRParentInput />
     </div>
   );
 }
