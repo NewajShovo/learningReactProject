@@ -32,6 +32,9 @@ import LifecycleB from "./components/LifecycleB";
 
 import FragmentDeom from "./components/FragmentDeom";
 import Table from "./components/Table";
+import PureComponent from "./components/PureComponent";
+
+import ParentComp from "./components/ParentComp";
 
 function App() {
   return (
@@ -68,7 +71,9 @@ function App() {
       {/* <LifecycleB /> */}
 
       {/* <FragmentDeom /> */}
-      <Table></Table>
+      {/* <Table></Table> */}
+      {/* <PureComponent /> */}
+      <ParentComp />
     </div>
   );
 }
