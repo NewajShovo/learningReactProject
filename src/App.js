@@ -30,6 +30,9 @@ import LifecycleA from "./components/LifecycleA";
 
 import LifecycleB from "./components/LifecycleB";
 
+import FragmentDeom from "./components/FragmentDeom";
+import Table from "./components/Table";
+
 function App() {
   return (
     <div className="App">
@@ -60,9 +63,12 @@ function App() {
       {/* <Hello /> */}
       {/* <Message /> */}
 
-      <LifecycleA />
+      {/* <LifecycleA /> */}
 
       {/* <LifecycleB /> */}
+
+      {/* <FragmentDeom /> */}
+      <Table></Table>
     </div>
   );
 }
