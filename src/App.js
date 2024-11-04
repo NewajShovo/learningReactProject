@@ -37,6 +37,7 @@ import PureComponent from "./components/PureComponent";
 import ParentComp from "./components/ParentComp";
 
 import RefsDeomo from "./components/RefsDeomo";
+import FocusInput from "./components/FocusInput";
 
 function App() {
   return (
@@ -76,7 +77,9 @@ function App() {
       {/* <Table></Table> */}
       {/* <PureComponent /> */}
       {/* <ParentComp /> */}
-      <RefsDeomo />
+      {/* <RefsDeomo /> */}
+
+      <FocusInput />
     </div>
   );
 }
