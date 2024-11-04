@@ -26,6 +26,10 @@ import styles from "./appStyles.module.css"; // can't apply into the child compo
 
 import Form from "./components/Form";
 
+import LifecycleA from "./components/LifecycleA";
+
+import LifecycleB from "./components/LifecycleB";
+
 function App() {
   return (
     <div className="App">
@@ -47,7 +51,7 @@ function App() {
       <h1 className={styles.success}> success</h1>
       <Inline /> */}
 
-      <Form />
+      {/* <Form /> */}
 
       {/* <FunctionClick /> */}
 
@@ -55,6 +59,10 @@ function App() {
       {/* <Welcome name=" Hello Shovo"></Welcome> */}
       {/* <Hello /> */}
       {/* <Message /> */}
+
+      <LifecycleA />
+
+      {/* <LifecycleB /> */}
     </div>
   );
 }
