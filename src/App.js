@@ -52,6 +52,7 @@ import Counter from "./components/Counter";
 import CounterProps from "./components/CounterProps";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/userContext";
+import PostList from "./components/PostList";
 
 function App() {
   return (
@@ -133,9 +134,11 @@ function App() {
           <HoverCounterTwo count={count} incrementCount={incrementCount} />
         )}
       /> */}
-      <UserProvider value="Shovo">
+      {/* <UserProvider value="Shovo">
         <ComponentC />
-      </UserProvider>
+      </UserProvider> */}
+
+      <PostList />
     </div>
   );
 }
